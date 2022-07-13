@@ -1,7 +1,7 @@
 {
-  "name": "single-market-robot-simulator-db-local",
+  "name": "single-market-robot-simulator-db-fsaccessapi",
   "version": "0.1.0",
-  "description": "study folder class for local folders based on File System Acces API",
+  "description": "study folder class for local folders based on File System Access API",
   "exports": "./src/index.mjs",
   "scripts": {
     "lint": "node_modules/.bin/eslint src/**.mjs"
