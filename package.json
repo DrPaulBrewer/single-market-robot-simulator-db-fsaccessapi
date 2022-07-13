@@ -1,0 +1,21 @@
+{
+  "name": "single-market-robot-simulator-db-local",
+  "version": "0.1.0",
+  "description": "study folder class for local folders based on File System Acces API",
+  "exports": "./src/index.mjs",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint src/**.mjs"
+  },
+  "author": "drpaulbrewer@eaftc.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drpaulbrewer/single-market-robot-simulator-db-local"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0"
+  },
+  "dependencies": {
+    "single-market-robot-simulator-db-studyfolder": "^3.2.0"
+  }
+}
