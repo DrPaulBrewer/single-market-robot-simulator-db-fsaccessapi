@@ -1,6 +1,6 @@
 {
   "name": "single-market-robot-simulator-db-fsaccessapi",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "study folder class for local folders based on File System Access API",
   "exports": "./src/index.mjs",
   "scripts": {
