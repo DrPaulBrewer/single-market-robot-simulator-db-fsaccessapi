@@ -99,12 +99,12 @@ export class LocalDB {
             let size;
             try {
               const blob = await innerHandle.getFile();
-              const size = blob.size;
+              size = blob.size;
             } catch(e){
               console.log(e);
             }
             const name = innerHandle.name;
-            console.log({name});
+            console.log({name,size});
             dirManifest.push({name, size, fh:innerHandle});
             if (name==='config.json')
               include = true;
